@@ -91,15 +91,15 @@ LeadFlow-CRM/
 ## 📸 Screenshots
 
 ### Dashboard
-<!-- Add dashboard screenshot here -->
+
+### Dashboard
+![Dashboard](image/image1.png)
 
 ### Leads Management
-<!-- Add leads screenshot here -->
+![Leads Management](image/image2.png)
 
 ### Follow-ups
-<!-- Add follow-ups screenshot here -->
-
----
+![Follow-ups](image/image3.png)
 
 ## 🚀 Getting Started
 
