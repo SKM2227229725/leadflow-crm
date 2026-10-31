@@ -6,13 +6,16 @@ Manage leads, track sales pipeline stages, schedule follow-ups, and monitor busi
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![Django](https://img.shields.io/badge/Django-5.2-green?logo=django)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-5.2-green?logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/DRF-3.18-red)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 </p>
+
+---
 
 ## ✨ Features
 
@@ -25,6 +28,8 @@ Manage leads, track sales pipeline stages, schedule follow-ups, and monitor busi
 - 🔒 User-Level Data Isolation.
 - ✅ Server-Side Validation and Error Handling.
 
+---
+
 ## 🛠 Tech Stack
 
 | Layer | Technology |
@@ -36,6 +41,8 @@ Manage leads, track sales pipeline stages, schedule follow-ups, and monitor busi
 | API Client | Axios |
 | Database | SQLite / PostgreSQL |
 | Styling | Responsive CSS |
+
+---
 
 ## 🏗 Architecture
 
@@ -50,6 +57,8 @@ flowchart TD
     D --> H[Dashboard API]
 ```
 
+---
+
 ## 📁 Project Structure
 
 ```text
@@ -60,6 +69,7 @@ LeadFlow-CRM/
 │   ├── leads/
 │   ├── activities/
 │   ├── dashboard/
+│   ├── requirements.txt
 │   └── manage.py
 │
 ├── frontend/
@@ -76,9 +86,28 @@ LeadFlow-CRM/
 └── README.md
 ```
 
+---
+
+## 📸 Screenshots
+
+### Dashboard
+<!-- Add dashboard screenshot here -->
+
+### Leads Management
+<!-- Add leads screenshot here -->
+
+### Follow-ups
+<!-- Add follow-ups screenshot here -->
+
+---
+
 ## 🚀 Getting Started
 
-**Prerequisites:** Python 3.12+, Node.js 20+, npm.
+### Prerequisites
+
+- Python 3.12+
+- Node.js 20+
+- npm
 
 ### Backend Setup
 
@@ -86,6 +115,8 @@ LeadFlow-CRM/
 cd backend
 
 python -m venv .venv
+
+# Windows
 .venv\Scripts\activate
 
 pip install -r requirements.txt
@@ -93,10 +124,13 @@ pip install -r requirements.txt
 copy .env.example .env
 
 python manage.py migrate
+
 python manage.py runserver
 ```
 
 ### Frontend Setup
+
+Open another terminal:
 
 ```bash
 cd frontend
@@ -104,12 +138,15 @@ cd frontend
 copy .env.example .env
 
 npm install
+
 npm run dev
 ```
 
-Frontend: `http://localhost:5173`
+**Frontend:** http://localhost:5173
 
-Backend: `http://127.0.0.1:8000/api/v1/`
+**Backend:** http://127.0.0.1:8000/api/v1/
+
+---
 
 ## 🔒 Security Highlights
 
@@ -119,6 +156,8 @@ Backend: `http://127.0.0.1:8000/api/v1/`
 - Server-side input validation.
 - Protected API endpoints.
 - Standardized API error responses.
+
+---
 
 ## 🧪 Testing
 
@@ -131,6 +170,8 @@ Backend: `http://127.0.0.1:8000/api/v1/`
 
 *Browser E2E testing and PostgreSQL integration remain unverified.*
 
+---
+
 ## 🔮 Future Improvements
 
 - [ ] Pagination and advanced filtering.
@@ -139,7 +180,19 @@ Backend: `http://127.0.0.1:8000/api/v1/`
 - [ ] Frontend automated testing.
 - [ ] Production deployment.
 
+---
+
 ## 📜 License
+
+**MIT License**
+
+Copyright (c) 2026 Shailesh Kumar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 Developed as part of the **VyorAI SDE Internship Evaluation**.
 

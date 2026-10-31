@@ -95,3 +95,37 @@ input, select { width:100%; padding:8px 10px; border:1px solid var(--border); bo
 @media (max-width: 768px) {
   .sidebar { display: none; }
 }
+/* Hamburger fix */
+.menu-btn {
+  display: none !important;
+}
+@media (max-width: 768px) {
+  .menu-btn {
+    display: inline-block !important;
+  }
+}
+.auth-wrap {
+  min-height: 100vh;
+  display: flex;
+  background: #fff;
+}
+.auth-hero {
+  flex: 1;
+  background: linear-gradient(135deg, #3b5bdb 0%, #1e3a8a 100%);
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.auth-hero h1 { font-size: 2.5rem; margin-bottom: 16px; }
+.auth-form-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+@media (max-width: 768px) {
+  .auth-hero { display: none; }
+}
