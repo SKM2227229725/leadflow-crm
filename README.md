@@ -2,7 +2,7 @@
 
 **A Full-Stack Customer Relationship Management (CRM) Application** built as part of the VyorAI SDE Internship Evaluation.
 
-Manage leads, track sales pipeline stages, schedule follow-ups, and monitor business activities through a dashboard.
+Manage leads, track sales pipeline stages, schedule follow-ups, and monitor business activities through a the dashboard.
 
 <p align="center">
 
